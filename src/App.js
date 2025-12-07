@@ -150,17 +150,18 @@ function App() {
       </header>
 
       <main>
-        {/* HERO WITH YOUR TRAILER */}
+        {/* HERO WITH MY TRAILER */}
         <section className="hero" id="home">
           <div className="hero-video-wrapper">
-            <video
-              className="hero-video"
-              src="/Trailer.mp4"
-              autoPlay
-              muted
-              loop
-              playsInline
-            />
+<video
+  className="hero-video"
+  src="/netflix-intro-iyed-v1.mp4"
+  autoPlay
+  muted
+  loop
+  playsInline
+/>
+
           </div>
 
           <div className="hero-overlay" />
