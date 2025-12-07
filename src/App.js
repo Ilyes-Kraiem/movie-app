@@ -135,10 +135,11 @@ function App() {
     <div className="app">
       {/* NAVBAR */}
       <header className="nav">
-        <div className="nav__logo">
-          <span className="nav__logo-main">Net</span>
-          <span className="nav__logo-sub">Flix</span>
-        </div>
+<div className="logo">
+  <span className="logo-main">Ilyes</span>
+  <span className="logo-accent">Flix</span>
+</div>
+
 
         <nav className="nav__links">
           <a href="#home">Home</a>
@@ -146,7 +147,8 @@ function App() {
           <a href="#about">About</a>
         </nav>
 
-        <button className="nav__cta">Sign In</button>
+        <button className="nav-signin">Demo Sign In</button>
+
       </header>
 
       <main>
@@ -208,9 +210,9 @@ function App() {
         <footer className="footer" id="about">
           <div className="footer__columns">
             <div>
-              <h3>About Netflix</h3>
+              <h3>About IlyesFlix</h3>
               <p>
-                Netflix has an extensive library of feature films, documentaries,
+                IlyesFlix has an extensive library of feature films, documentaries,
                 TV shows, anime, award-winning originals, and more.
               </p>
             </div>
@@ -226,7 +228,7 @@ function App() {
             </div>
           </div>
           <p className="footer__copyright">
-            © 2025 Netflix.
+            © 2025 IlyesFlix.
           </p>
         </footer>
       </main>
