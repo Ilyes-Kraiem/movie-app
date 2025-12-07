@@ -135,11 +135,10 @@ function App() {
     <div className="app">
       {/* NAVBAR */}
       <header className="nav">
-<div className="logo">
-  <span className="logo-main">Ilyes</span>
-  <span className="logo-accent">Flix</span>
-</div>
-
+        <div className="nav__logo">
+          <span className="nav__logo-main">Net</span>
+          <span className="nav__logo-sub">Flix</span>
+        </div>
 
         <nav className="nav__links">
           <a href="#home">Home</a>
@@ -147,8 +146,7 @@ function App() {
           <a href="#about">About</a>
         </nav>
 
-        <button className="nav-signin">Demo Sign In</button>
-
+        <button className="nav__cta">Sign In</button>
       </header>
 
       <main>
@@ -169,8 +167,8 @@ function App() {
           <div className="hero-overlay" />
 
           <div className="hero-content">
-            <h1>UNLIMITED TV SHOWS &amp; MOVIES.</h1>
-            <p>Browse, filter and see for yourself.</p>
+            <h1>Unlimited Movies &amp; TV shows and more.</h1>
+            <p>Starts at USD 3.99. Cancel anytime..</p>
           </div>
         </section>
 
@@ -210,9 +208,9 @@ function App() {
         <footer className="footer" id="about">
           <div className="footer__columns">
             <div>
-              <h3>About IlyesFlix</h3>
+              <h3>About Netflix</h3>
               <p>
-                IlyesFlix has an extensive library of feature films, documentaries,
+                Netflix has an extensive library of feature films, documentaries,
                 TV shows, anime, award-winning originals, and more.
               </p>
             </div>
@@ -228,7 +226,7 @@ function App() {
             </div>
           </div>
           <p className="footer__copyright">
-            © 2025 IlyesFlix.
+            © 2025 Netflix.
           </p>
         </footer>
       </main>

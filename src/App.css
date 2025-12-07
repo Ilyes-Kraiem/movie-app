@@ -18,6 +18,26 @@ body {
   background: #000;
 }
 
+.nav__cta {
+  padding: 0.45rem 1.4rem;
+  border-radius: 999px;
+  border: none;
+  background: #e50914;    
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.15s ease,
+    box-shadow 0.15s ease;
+  box-shadow: 0 8px 16px rgba(229, 9, 20, 0.6);
+}
+
+.nav__cta:hover {
+  background: #f6121d;
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(229, 9, 20, 0.75);
+}
+
+
 .nav {
   position: sticky;
   top: 0;
